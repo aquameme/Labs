@@ -1,3 +1,3 @@
 #!/bin/bash
-~/bin/number_of_arguments.sh "$*"
-~/bin/number_of_arguments.sh "$@"
+~/bin/lab_3_1.sh "$*"
+~/bin/lab_3_1.sh "$@"
