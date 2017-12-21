@@ -6,7 +6,7 @@ cat "$file" >> /tmp/big.txt
 echo "$file"
 done
 echo "Size in bytes: "
-du -h /tmp/big.txt | cut -d' ' -f 1
+du -h /tmp/big.txt | cut -d' ' -f2
 echo "Size in lines: "
-wc -l /tmp/big.txt | cut -d' ' -f 1 
+wc -l /tmp/big.txt | cut -d' ' -f2
 rm /tmp/big.txt
