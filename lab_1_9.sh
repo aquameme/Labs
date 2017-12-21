@@ -1,2 +1,2 @@
 #!/bin/bash
-ps -eo pid,user,pcpu,pmem,time,command | sort -r -k4| head -6
+ps -eo pmem,command | sort -r -k1| head -6
