@@ -1,11 +1,11 @@
 #!/bin/bash
 grep 000000 ~/bash.txt > /tmp/zeros
 grep -v 000000 ~/bash.txt > /tmp/nozeros
-echo " "
+echo "Head zeros"
 head /tmp/zeros
-echo " "
+echo "Tail zeros"
 tail /tmp/zeros
-echo " "
+echo "Head nozeros"
 head /tmp/nozeros
-echo " "
+echo "Tail nozeros"
 tail /tmp/nozeros
