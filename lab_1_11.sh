@@ -1,11 +1,11 @@
 #!/bin/bash
 echo "Directories:"
-ls -l . | grep ^d
+ls -l . | find -type d
 echo "Regular files:"
-ls -l . | grep ^-
+ls -l . | find -type f
 echo "Symbolic links:"
-ls -l . | grep ^l
+ls -l . | find -type l
 echo "Character specials:"
-ls -l . | grep ^c
+ls -l . | find -type c
 echo "Block specials:"
-ls -l . | grep ^b
+ls -l . | find -type b
